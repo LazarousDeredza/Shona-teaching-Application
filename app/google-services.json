@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "634802958688",
+    "project_id": "shona-teaching-assistant",
+    "storage_bucket": "shona-teaching-assistant.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:634802958688:android:37bdc5e8014d7a9ba0ee05",
+        "android_client_info": {
+          "package_name": "com.example.shonateachingassistant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "634802958688-7b9q2d5kuuppjhe43ggs2aa9hubb4tdf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAxE00VHUqhOJbkEZp818zzKUlr0JT2Gc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "634802958688-7b9q2d5kuuppjhe43ggs2aa9hubb4tdf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

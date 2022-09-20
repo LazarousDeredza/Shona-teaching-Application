@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back"
+        tools:context=".OptionObjects">
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:orientation="vertical">
+        <RelativeLayout
+                android:background="#00468C"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp">
+            <ImageView
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    app:tint="@color/white"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:backgroundTint="@color/white"
+                    android:background="@drawable/ic_back"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:id="@+id/ic_back"/>
+            <TextView
+                    android:text="Home"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_18sdp"
+                    android:id="@+id/ic_exit"/>
+
+        </RelativeLayout>
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/home1"
+            android:id="@+id/imageView"
+            android:layout_weight="1"
+            android:layout_alignParentTop="true"/>
+    <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView">
+
+        <TableRow android:layout_width="match_parent"
+                  android:layout_height="wrap_content">
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+            >
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:paddingRight="82dp"
+                        android:layout_height="wrap_content">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="80dp"
+                            android:layout_height="60dp"
+                            android:src="@drawable/back3"
+                            android:id="@+id/imageViewr2"/>
+                    <Button
+                            android:text="Animals"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/btnAnimals"/>
+                </LinearLayout>
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="80dp"
+                            android:layout_height="60dp"
+                            android:src="@drawable/objects4"
+                            android:id="@+id/imageVregiewr"/>
+                    <Button
+                            android:text="Furniture"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/btnFurniture"/>
+                </LinearLayout>
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow android:layout_width="wrap_content"
+                  android:layout_height="wrap_content">
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="400dp"
+                    android:layout_height="70dp"
+                    android:gravity="center_horizontal"
+            >
+
+
+            </LinearLayout>
+        </TableRow>
+        <TableRow android:layout_width="wrap_content"
+                  android:layout_height="wrap_content">
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+            >
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:paddingRight="82dp"
+                        android:layout_height="wrap_content">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="80dp"
+                            android:layout_height="60dp"
+                            android:src="@drawable/back4"
+                            android:id="@+id/imageView2"/>
+                    <Button
+                            android:text="Fruits"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/btnFruits"/>
+                </LinearLayout>
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="80dp"
+                            android:layout_height="60dp"
+                            android:src="@drawable/home4"
+                            android:id="@+id/imageViewr"/>
+                    <Button
+                            android:text="Other"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/btnOther"/>
+                </LinearLayout>
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
